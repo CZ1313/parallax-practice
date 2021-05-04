@@ -3,7 +3,7 @@ body{
 }
 
 .jumbotron{
-    background-image: url('/img/abandoned_building.jpg');
+    background-image: url('/img/building.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
