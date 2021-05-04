@@ -7,12 +7,115 @@
     <title>Bootstrap Boilerplate</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
-   
+    
 </head>
 
 <body>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <header class="container">
+                  
+        <div class="jumbotron">
+               
+            <!--Navbar-->
+            <nav class="navbar navbar-dark text-dark">
+  
+                <!-- button -->
+                <button class="navbar-toggler m-0 rounded-circle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+                        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <!-- content -->
+                <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent15">
+                    <ul class="navbar-nav .ml-auto">
+                        <li class="nav-item "> <a class="nav-link " href="#parallax_1">Human History <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#parallax_2">Modern Zombie</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#parallax_3">Reported Zombies and CDC</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!--Display Title-->
+            <div class= "container">        
+                <p class="display-2 lead text-center the_undead">Stories of the Undead</p>
+                <p class=" font-size 20px text-center the_history"><em> The history of the modern day <strong>Zombie.</strong></em></p>
+            </div>
+
+    </header>
+
+    <!--parallax 1-->
+    <div class = "parallax_effect container p-5" 
     
+        id="parallax_1">
+        <div class="parallax_wrapper">
+            <h3> Human History</h3>
+            <p>First Recording - Origin</p>
+            <p>Different Culture Beliefs</p>
+            <p>Science</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+
+  <!--parallax 2-->
+    <div class="parallax_effect container p-5" 
+    
+        id="parallax_2">
+        <div class="parallax_wrapper">
+            <h3> The Modern Zombie</h3>
+            <p>Movies</p>
+            <p>Literature</p>
+            <p>Games</p>
+            <p>Music</p>
+            <p>Government</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+
+    <!--parallax 3-->
+    <div class="parallax_effect container p-5" 
+    
+    id="parallax_3">
+        <div class="parallax_wrapper">
+        <h3>"Reported Zombies in Medical Journals and Centers for Disease Control and Prevention Zombie Guidlines" </h3>
+            <p><em>.........Not kidding</em></p>
+            <p>1962</p>
+            <p>1997 </p>
+            <p>CDC Zombie Prepardness Guidlines March 2021 </p>
+            <button>Learn More</button>
+        </div>
+    </div>
+
+
+
+
+
+<!--(#parallax_one>(.parallax_wrapper>p{title}+p{date}+p{lorem}+button{learn more})*4-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+
+
+
+    <!--Footer-->
+
+    <footer class="container-fluid">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-md-8 d-flex flex-column justify-content-center align-items-center h-100 text-center">
+                <h3 class="text-uppercase text-warning font-weight-bold p-5">Contact</h3>
+                <div class="social_icons mt-1 mb-3">
+                    <!-- i.fab.fa-.fa-2x*3 -->
+                    <i class="fab fa-twitter fa-3x rounded-circle mr-3 text-warning"></i>
+                    <i class="fab fa-facebook fa-3x rounded-circle mr-3 text-warning"></i>
+                    <i class="fab fa-instagram fa-3x rounded-circle text-warning"></i>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+ 
 </body>
 </html>
